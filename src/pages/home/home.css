@@ -328,6 +328,7 @@ body.dark .switch::before {
   width: calc(100% - 250px);
   background-color: var(--body-color);
   transition: var(--tran-05);
+  overflow-y: scroll;
 }
 .home .text {
   font-size: 30px;
