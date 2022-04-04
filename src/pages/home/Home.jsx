@@ -38,7 +38,9 @@ export default function Sidebar() {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     const fetchCourses = async () => {
-      const res = await axios.get("http://localhost:5000/api/files");
+      const res = await axios.get(
+        "https://mernchatappp.herokuapp.com//api/files"
+      );
       setFiles(res.data);
       console.log(files);
     };

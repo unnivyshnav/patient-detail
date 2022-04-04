@@ -22,6 +22,7 @@ export default function Notes() {
         <div className="noteText">
           <textarea
             name=""
+            placeholder="add notes"
             id=""
             cols="30"
             rows="8"
