@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Head from "../../components/head/Head";
 import "./home.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import PatientProfileCard from "../../components/patientProfileCard/PatientProfileCard";
 import axios from "axios";
 import Appointments from "../../components/appointments/Appointments";
@@ -177,7 +177,10 @@ export default function Sidebar() {
             <div className="notes">
               <Notes />
             </div>
-            <div className="files"> {/* <Files files={files} />{" "} */}</div>
+            <div className="files">
+              {" "}
+              <Files files={files} />{" "}
+            </div>
           </div>
         </div>
       </section>
