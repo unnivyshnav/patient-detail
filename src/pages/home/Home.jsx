@@ -38,9 +38,7 @@ export default function Sidebar() {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     const fetchCourses = async () => {
-      const res = await axios.get(
-        "https://619f39821ac52a0017ba467e.mockapi.io/Files"
-      );
+      const res = await axios.get("http://localhost:5000/api/files");
       setFiles(res.data);
       console.log(files);
     };
@@ -52,7 +50,7 @@ export default function Sidebar() {
         "https://619f39821ac52a0017ba467e.mockapi.io/DoctorDetails"
       );
       setDrDetails(res.data);
-      console.log(drDetails);
+      // console.log(drDetails);
     };
     fetchCourses();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -62,7 +60,7 @@ export default function Sidebar() {
   };
   const Setcollapse = (e) => {
     setCollapse(!collapse);
-    console.log(collapse);
+    // console.log(collapse);
   };
 
   return (

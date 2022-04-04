@@ -1,7 +1,8 @@
 import "./files.css";
 
 export default function Files({ files }) {
-  const file = files[0].files;
+  console.log(files);
+
   return (
     <div className="filesMain">
       <div className="filesHead">
@@ -13,12 +14,12 @@ export default function Files({ files }) {
           <span>Add Files</span>
         </div>
       </div>
-      {file.map((c, key) => (
-        <div className="fileRow">
+      {files.map((c, key) => (
+        <div className="fileRow" key={key}>
           <div className="fileRowLeft">
             <div className="filedIcon">
               <i class="bx bx-file"></i>
-              <span className="fileName">{c}</span>
+              <span className="fileName">{c.file}</span>
             </div>
           </div>
           <div className="fileRowRight">
