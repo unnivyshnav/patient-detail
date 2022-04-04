@@ -25,7 +25,7 @@ export default function Sidebar() {
       console.log(patient);
     };
     fetchCourses();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     const fetchCourses = async () => {
       const res = await axios.get(
@@ -35,7 +35,7 @@ export default function Sidebar() {
       console.log(appointment);
     };
     fetchCourses();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     const fetchCourses = async () => {
       const res = await axios.get(
@@ -45,7 +45,7 @@ export default function Sidebar() {
       console.log(files);
     };
     fetchCourses();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     const fetchCourses = async () => {
       const res = await axios.get(
@@ -55,7 +55,7 @@ export default function Sidebar() {
       console.log(drDetails);
     };
     fetchCourses();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const toggle = (e) => {
     setClose(!close);
