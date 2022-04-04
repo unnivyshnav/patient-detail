@@ -1,0 +1,37 @@
+.noteMain {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.noteHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.notArea {
+  position: relative;
+}
+
+textarea {
+  position: relative;
+  width: 100%;
+  background-color: #e9eef7;
+  border: none;
+  font-size: 15px;
+  padding: 10px 25px 40px 25px;
+}
+
+.noteButton {
+  position: relative;
+  bottom: 20px;
+}
+.noteButtonbt {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(20, 20, 138);
+  padding: 3px;
+  color: white;
+}

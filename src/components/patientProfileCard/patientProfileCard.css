@@ -1,0 +1,69 @@
+.patientProfileCard {
+  display: flex;
+  padding: 0px 10px 0px 5px;
+  border-radius: 10px;
+}
+
+.profileLeft {
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.profileHistory {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profileEmail {
+  margin-bottom: 10px;
+}
+.upcoming,
+.past {
+  padding: 0px 10px;
+}
+
+.past {
+  border-right: solid rgba(128, 128, 128, 0.259) 1px;
+}
+.countText {
+  font-size: 12px;
+}
+
+.count {
+  text-align: center;
+}
+
+.profileButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: solid rgba(128, 128, 128, 0.44) 1px;
+  padding: 5px;
+}
+
+.profileRight {
+  padding: 35px 0px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  border-left: solid #f2f5fa 8px;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.profileDatatext {
+  padding-left: 10px;
+  margin-left: 10px;
+  width: 30%;
+  margin-right: 2px;
+}

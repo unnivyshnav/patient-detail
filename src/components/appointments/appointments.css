@@ -1,0 +1,109 @@
+.appointments {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.selectBar {
+  display: flex;
+  flex-direction: row;
+  background-color: #e9eef7;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+}
+
+.selectBarOptions {
+  padding: 5px 10px;
+  margin-right: 1 5px;
+  cursor: pointer;
+  color: rgb(111, 108, 108);
+}
+
+.selectedONe.selectBarOptions {
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(45, 45, 45);
+}
+.treatments {
+  background-color: #e9eef7;
+  padding: 0px 10px 10px 10px;
+}
+
+.treatmentsHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 15px 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+  border-bottom: solid rgba(0, 0, 0, 0.105) 0.5px;
+}
+.treatmentName {
+  padding-top: 6px;
+}
+.dropdownButton {
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.treatmentList {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 200px;
+  display: flex;
+  flex: 12;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.makeRow {
+  display: flex;
+}
+.line {
+  border-left: solid 4px rgb(73, 73, 143);
+  margin-left: 35px;
+  height: 110px;
+  flex: 4;
+  width: 40px;
+  color: rgba(255, 255, 255, 0);
+  position: relative;
+}
+.dots {
+  position: absolute;
+  background-color: #e9eef7;
+  top: 40px;
+  left: -10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid rgb(141, 128, 198) 3px;
+}
+.tretmentrows {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  flex: 8;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

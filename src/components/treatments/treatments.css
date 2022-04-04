@@ -1,0 +1,13 @@
+.indvidualTreatment {
+  background-color: white;
+  padding: 10px;
+
+  margin-bottom: 20px;
+}
+
+.treatmentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
