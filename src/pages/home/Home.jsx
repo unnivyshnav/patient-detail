@@ -99,17 +99,17 @@ export default function Sidebar() {
               </li>
 
               <li class="nav-link">
-                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <i class="bx bx-calendar icon"></i>
                 <span class="text nav-text">Calender</span>
               </li>
 
               <li class="nav-link">
-                <i class="bx bx-bell icon"></i>
+                <i class="bx bx-list-ol icon"></i>
                 <span class="text nav-text">Patient List</span>
               </li>
 
               <li class="nav-link">
-                <i class="bx bx-pie-chart-alt icon"></i>
+                <i class="bx bx-message-dots icon"></i>
                 <span class="text nav-text">Messages</span>
               </li>
 
@@ -127,7 +127,7 @@ export default function Sidebar() {
 
           <div class="bottom-content">
             <li class="">
-              <i class="bx bx-log-out icon"></i>
+              <i class="bx-help-circle icon"></i>
               <span class="text nav-text">Help ?</span>
             </li>
 
