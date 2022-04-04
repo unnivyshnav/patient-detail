@@ -39,7 +39,7 @@ export default function Sidebar() {
   useEffect(() => {
     const fetchCourses = async () => {
       const res = await axios.get(
-        "https://mernchatappp.herokuapp.com/api/files"
+        "https://patient-app-details.herokuapp.com/api/files"
       );
       setFiles(res.data);
       console.log(files);
